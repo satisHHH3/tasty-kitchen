@@ -1,0 +1,42 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-container img {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.not-found-container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.not-found-container p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #475569;
+  text-align: center;
+}
+
+.not-found-container button {
+  color: #fff;
+  background-color: orange;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Roboto;
+  padding: 6px 12px;
+  margin-top: 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,267 @@
+.cart-container {
+  min-height: 50vh;
+}
+
+.cart-container table {
+  width: 100%;
+  background-color: #f9fbfe;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 15px;
+  box-shadow: -1px -1px 18px -1px rgba(204, 190, 204, 1);
+}
+
+.cart-container table thead tr th {
+  text-align: left;
+  padding: 8px 5px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #1c1919;
+  width: 250px;
+  text-align: center;
+}
+
+tbody tr td {
+  padding: 5px;
+  text-align: center;
+}
+
+tbody td .cart-img-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 25%;
+}
+
+tbody td .cart-img-container img {
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+tbody td .cart-img-container p {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #1c1919;
+  font-size: 15px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.quantity-container button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0px 5px;
+  border: 1px solid;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.quantity-container span {
+  font-family: Roboto;
+  font-family: 500;
+  color: #1c1919;
+  font-size: 13px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+}
+
+.price-container p {
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.item-name-cost-cont {
+  border: none;
+}
+
+.item-name-cost-cont .item-name {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #1c1919;
+  font-size: 14px;
+}
+
+.item-name-cost-cont .quantity-sm-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0px;
+}
+
+.item-name-cost-cont .quantity-sm-container button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0px 5px;
+  border: 1px solid;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.quantity-sm-container span {
+  font-family: Roboto;
+  font-family: 500;
+  color: #1c1919;
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .cart-container {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-container table {
+    display: none;
+  }
+
+  .price-container {
+    justify-content: flex-start;
+    margin-top: 4px;
+    padding-left: 0px;
+  }
+}
+
+.cart-list-container {
+  width: 100%;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.cart-list-container li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 5px;
+  box-shadow: -1px -1px 18px -1px rgba(204, 190, 204, 1);
+  margin: 8px 0px;
+}
+
+.cart-list-container li img {
+  width: 160px;
+  height: 110px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .cart-list-container {
+    display: none;
+  }
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart-container img {
+  width: 250px;
+}
+
+.empty-cart-container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #1e293b;
+}
+
+.empty-cart-container p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #64748b;
+}
+
+.empty-cart-container button {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+
+hr {
+  margin-top: 15px;
+  height: 2px;
+  background-color: skyblue;
+  border: none;
+}
+
+.total-cost-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.total-cost-container button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-family: Roboto;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .total-cost-container {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 0px 8px;
+  }
+}
+
+.total-cost-container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.total-cost-container span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.order-button {
+  margin-left: auto;
+}

@@ -1,0 +1,44 @@
+.payment-container {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-container img {
+  width: 50px;
+  margin-bottom: 12px;
+}
+
+.payment-container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #1e293b;
+}
+
+.payment-container p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #64748b;
+}
+
+.payment-container button {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 12px;
+  border-radius: 5px;
+}

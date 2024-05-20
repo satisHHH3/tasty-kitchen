@@ -1,0 +1,164 @@
+.rest-det-bg-container {
+  min-height: 100vh;
+}
+
+.rest-det-head-container {
+  background-image: url('https://res.cloudinary.com/ddz601a5i/image/upload/v1715927105/Frame_279_jietyw.png');
+  height: 100%;
+  background-size: cover;
+  background-color: #333333;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0px;
+}
+
+.rest-det-head-container img {
+  height: 100%;
+  width: 25%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.rest-det-content-card {
+  align-self: center;
+}
+
+.rest-det-content-card .restaurant-head {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.rest-det-content-card .rest-cuisine-text {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.rest-det-content-card .rest-location-text {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.rest-det-content-card .rest-review-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.rest-det-content-card .rating-container div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.rest-det-content-card .rating-container span {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rest-det-content-card .rating-container p {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.cost-container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.rest-det-content-card .cost-container span {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cost-text {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.rest-det-content-card .rating-container div .star-icon {
+  color: #fff;
+}
+
+.rest-det-content-card .rating-container img {
+  width: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.vertical-line {
+  border-left: 1px solid #fff; /* Adjust color and thickness as needed */
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .rest-det-head-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0px;
+  }
+
+  .rest-det-head-container img {
+    width: 70%;
+    height: 250px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    margin-left: -145px;
+    margin-top: -40px;
+    z-index: 1;
+  }
+
+  .rest-det-content-card {
+    width: 100%;
+    left: -20%;
+  }
+
+  .rest-det-content-card .restaurant-head {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .rest-det-content-card .rest-cuisine-text {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .rest-det-content-card .rest-location-text {
+    font-size: 12px;
+  }
+}
+
+.rest-det-item-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
